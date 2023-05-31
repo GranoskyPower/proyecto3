@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root {
+    font-size: 16px;
+    font-weight: 500;
+
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--cream);
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+}
+
+.card_component {
+    background-color: var(--white);
+    width: 50%;
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    float: left;
+    width: 50%;
+    
+}
+
+.card_perfum {
+    display: flex;
+    flex-direction: column;
+    color: var(--dark-grayish-blue);
+    font-weight: 700;
+    padding: 25px;
+    width: 30%;
+    
+}
+
+.card_name {
+    display: flex;
+    flex-direction: column;
+    color: var(--very-dark-blue);
+    font-weight: 900;
+    padding: 25px;
+    width: 30%;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    color: var(--dark-grayish-blue);
+    font-weight: 700;
+    padding: 25px;
+    width: 40%;
+}
+
+.card_number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
+
+
+.number1 {
+    display: flex;
+    flex-direction: row;
+    color: var(--dark-cyan);
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.number2 {
+    display: flex;
+    flex-direction: row;
+
+    text-decoration: line-through;
+    font-size: 20px;
+    padding: 25px;
+}
+
+
+.card_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carrito {
+    background-color: var(--dark-cyan);
+    width: 85%;
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.carrito {
+    margin-right: 20px;
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
